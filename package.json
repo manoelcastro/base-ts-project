@@ -4,7 +4,11 @@
   "description": "Base do projeto ts",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx ts-node ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "npx tsc",
+    "build:start": "npx tsc && node ./dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +22,7 @@
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
     "prettier": "2.8.8",
+    "ts-node": "^10.9.1",
     "typescript": "^5.1.3"
   }
 }
