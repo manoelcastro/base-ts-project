@@ -3,4 +3,4 @@ function helloWorld(name: string) {
   return
 }
 
-helloWorld('Manoel')
+helloWorld('John')
